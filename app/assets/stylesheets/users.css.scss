@@ -4,4 +4,63 @@
 body
 {
 background-color: #b0c4de;
+margin: 50px 0px;
+padding: 0 px;
+}
+h1
+{
+font-size:4em; 
+color:#00CD66;
+font-family:"Times New Roman", Times, serif;
+text-shadow: 4px 4px 4px #111111;
+}
+table
+{
+
+width: 500 px;
+text-align: center;
+
+}
+td, th
+{
+padding: 10px;
+border:1px solid green;
+}
+th
+{
+background-color:green;
+color:white;
+}
+a
+{
+background-color:#CCCCCC;
+color: #222222;
+padding: 3px;
+border-radius:20px;
+box-shadow: 4px 4px 3px #888;
+}
+
+a:visited
+{
+background-color:#CCCCCC;
+color: #BB0000;
+padding: 3px;
+border-radius:20px;
+box-shadow: 4px 4px 3px #888;
+}
+a:active
+{
+background-color:#00CD66;
+color: #0000DD;
+padding: 3px;
+border-radius:20px;
+box-shadow: 4px 4px 3px #888;
+}
+a:hover
+{
+background-color:#00CD66;
+color: #DDDDDD;
+padding: 3px;
+border-radius:20px;
+box-shadow: 4px 4px 3px #888;
 }
